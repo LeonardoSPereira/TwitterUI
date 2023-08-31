@@ -9,11 +9,11 @@ export const router = createBrowserRouter([
         element: <Default />,
         children: [
             {
-                path: '/',
+                path: '/TwitterUI',
                 element: <Timeline />
             },
             {
-                path: '/status',
+                path: '/TwitterUI/status',
                 element: <Status />
             }
         ]
